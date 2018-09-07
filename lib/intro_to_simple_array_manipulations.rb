@@ -30,6 +30,18 @@ def using_insert(arr, ele)
   arr.insert(4, ele)
 end
 
-def using_uniq(arr)
+def using_uniq(arr) 
+  #Note this might have to use bang
   arr.uniq
 end
+
+def using_flatten(arr)
+  arr.flatten
+end
+
+def using_delete(arr, str)
+  arr.delete(str)
+end
+
+def using_delete_at(arr, int)
+  
